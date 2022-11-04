@@ -77,7 +77,7 @@ function chechSaveFile() {
 		HPOprice = heatWater[10];
 		HPPprice = heatWater[11];
 		
-		Alert("You can try version 0.4. Just click <a target='_blank' href='https://dimitar5555.github.io/WaterCompany/0.4/'>here</a>.");
+		Alert("You can try version 0.4. Just click <a target='_blank' href='https://gityxs.github.io/water-company/0.4/'>here</a>.");
 		
 		formatNumber = localStorage.number;
 		var time = localStorage.offTime;
@@ -232,7 +232,7 @@ function chechSaveFile() {
 		month = 0;
 		priceIncMaxL = 200000;
 		maxLoan = 50000;
-		selectedCity = prompt("Where do you want to start you water company?");
+		selectedCity = prompt("你想在哪里开始你的自来水公司？");
 		var time = Date.now();
 		HWpumpProd = [50, 250, 2500, 5000];
 		HWpump = [0,0,0,0];
